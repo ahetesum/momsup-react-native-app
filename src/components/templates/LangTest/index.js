@@ -16,14 +16,19 @@ import {strings} from '../../../locales/Localization';
 
 
 
-export default class Login extends Component {
+export default class LangTest extends Component {
 
-  
+  overlang(){
+    strings.setLanguage('it');
+  this.setState({});
+  }
   render() {
     return (
       <View style = {styles.container}>
-     
-      <Text>Hello world</Text>
+      <TouchableOpacity style={styles.btn} onPress = {() => this.overlang()}>
+      <Text>Localization react native</Text>
+      </TouchableOpacity>
+      <Text>{strings.how}</Text>
       </View>
     );
   }
