@@ -44,20 +44,25 @@ const styles = StyleSheet.create({
     lineHeight: 32,
   },
   inputHolder: {
+    flexDirection: 'row',
     marginTop: 10,
     marginBottom: 10,
     height: 50,
+    alignItems: 'center',
     borderRadius: 5,
     backgroundColor: '#EFEFEF'
   },
   emailInput: {
     height: 32,
     width: 245,
+    marginLeft: 10,
     color: '#454545',
     //font-family: Nunito;	
-    fontSize: 24,
+    fontSize: 18,
     fontWeight: 'bold',
     lineHeight: 32,
+    alignItems: 'flex-start',
+
   },
   socialMedia: {
     backgroundColor: '#DEeeee',

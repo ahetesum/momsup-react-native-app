@@ -28,8 +28,8 @@ export default class Login extends Component {
                             <View style={styles.inputHolder}>
                                 <TextInput style={styles.emailInput} placeholder={strings.email}></TextInput>
                             </View>
-                            <View style={styles.passwordHolder}>
-                                <TextInput style={styles.passwordInput} placeholder={strings.password} ></TextInput>
+                            <View style={styles.inputHolder}>
+                                <TextInput style={styles.emailInput} placeholder={strings.password} ></TextInput>
                             </View>
                             <View style={styles.loginButtonHolder}>
                                 <Button style={styles.loginButton} >{strings.login}</Button>
