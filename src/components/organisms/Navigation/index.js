@@ -1,6 +1,6 @@
 //put some content
 import {createStackNavigator,createAppContainer} from 'react-navigation';
-import Login from '../../templates/Login';
+import Login from '../../templates/Login1';
 import LangTest from '../../templates/LangTest';
 
 
