@@ -64,6 +64,26 @@ const styles = StyleSheet.create({
     alignItems: 'flex-start',
 
   },
+  loginButtonHolder: {
+    flexDirection: 'row',
+    marginTop: 10,
+    marginBottom: 10,
+    alignItems: 'center',
+  },
+  loginButton: {
+    height: 60,
+    width: 335,
+    borderRadius: 5,
+    backgroundColor: '#19C5B9',
+    color: '#FFFFFF',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  loginText: {
+    color: '#FFFFFF',
+    fontSize: 18,
+    fontWeight: 'bold'
+  },
   socialMedia: {
     backgroundColor: '#DEeeee',
     height: 250,

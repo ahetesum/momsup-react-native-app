@@ -32,7 +32,7 @@ export default class Login extends Component {
                                 <TextInput style={styles.emailInput} placeholder={strings.password} ></TextInput>
                             </View>
                             <View style={styles.loginButtonHolder}>
-                                <Button style={styles.loginButton} >{strings.login}</Button>
+                                <TouchableOpacity style={styles.loginButton} ><Text style={styles.loginText}>{strings.login}</Text></TouchableOpacity>
                             </View>
                         </View>
                         <View style={styles.socialMedia}></View>
