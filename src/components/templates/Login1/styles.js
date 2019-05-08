@@ -25,6 +25,7 @@ const styles = StyleSheet.create({
     height: 22,
     color: '#454545',
     fontSize: 16,
+    width: '100%',
     //font-family: Nunito;	
     fontWeight: '600',
     lineHeight: 22,
@@ -36,7 +37,7 @@ const styles = StyleSheet.create({
   },
   welcomeText: {
     height: 32,
-    width: 245,
+    width: '100%',
     color: '#454545',
     //font-family: Nunito;	
     fontSize: 24,
@@ -53,11 +54,12 @@ const styles = StyleSheet.create({
     backgroundColor: '#EFEFEF'
   },
   emailInput: {
-    height: 32,
-    width: 245,
+    height: '100%',
+    width: '100%',
     marginLeft: 10,
     color: '#454545',
     //font-family: Nunito;	
+    textAlignVertical: 'center',
     fontSize: 18,
     fontWeight: 'bold',
     lineHeight: 32,
@@ -72,7 +74,7 @@ const styles = StyleSheet.create({
   },
   loginButton: {
     height: 60,
-    width: 335,
+    width: '100%',
     borderRadius: 5,
     backgroundColor: '#19C5B9',
     color: '#FFFFFF',
@@ -81,6 +83,9 @@ const styles = StyleSheet.create({
   },
   loginText: {
     color: '#FFFFFF',
+    width: '100%',
+    textAlignVertical: 'center',
+    textAlign: 'center',
     fontSize: 18,
     fontWeight: 'bold'
   },
