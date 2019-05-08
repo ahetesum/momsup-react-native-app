@@ -30,12 +30,12 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
         width: '100%',
-        height: 90,
+        height: 683,
         position: 'absolute',
         bottom: 0,
     },
     bottomImage: {
         width: screenWidth,
-        height: 90,
+        height: 683,
     },
 });

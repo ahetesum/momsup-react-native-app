@@ -15,6 +15,9 @@ export default class Splash extends Component {
         return (
             <Container >
                 <View style={styles.mainContainer}>
+                    <View style={styles.bottomImageHolder} >
+                        <Image style={styles.bottomImage} source={require('../../../assets/images/splash_main_bg.png')}></Image>
+                    </View>
                 </View>
             </Container >
         );
