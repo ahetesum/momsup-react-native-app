@@ -15,7 +15,6 @@ const styles = StyleSheet.create({
   },
   loginForm: {
     flex: 1,
-    height: 250,
   },
   loginAccountHolder: {
     alignItems: 'flex-start',
@@ -39,10 +38,25 @@ const styles = StyleSheet.create({
     height: 32,
     width: '100%',
     color: '#454545',
-    //font-family: Nunito;	
+    //fontFamily: 'Nunito',
     fontSize: 24,
     fontWeight: 'bold',
     lineHeight: 32,
+  },
+  forgotPassHolder: {
+    alignItems: 'flex-start',
+    justifyContent: 'flex-start',
+    marginTop: 10,
+    marginBottom: 10,
+  },
+  forgotPassword: {
+    height: 19,
+    width: '100%',
+    color: '#FF785A',
+    //font- family: Nunito; 
+    fontSize: 16,
+    fontWeight: 'bold',
+    lineHeight: 19,
   },
   inputHolder: {
     flexDirection: 'row',
@@ -73,7 +87,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   loginButton: {
-    height: 60,
+    height: 55,
     width: '100%',
     borderRadius: 5,
     backgroundColor: '#19C5B9',
@@ -90,7 +104,6 @@ const styles = StyleSheet.create({
     fontWeight: 'bold'
   },
   socialMedia: {
-    backgroundColor: '#DEeeee',
     height: 250,
   },
   bubbleImageHolder: {
@@ -116,8 +129,83 @@ const styles = StyleSheet.create({
     width: screenWidth,
     height: 90,
   },
-
-
+  otherLoginHolder: {
+    marginTop: 10,
+    marginBottom: 10,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  otherLoginText: {
+    height: 22,
+    width: 140,
+    color: '#454545',
+    marginTop: -12,
+    textAlignVertical: 'center',
+    textAlign: 'center',
+    //fontWeight: 'bold',
+    //fontFamily: Nunito; 
+    backgroundColor: '#FFFFFF',
+    fontSize: 16,
+    lineHeight: 22
+  },
+  lineStyle1: {
+    height: 1,
+    marginLeft: 2,
+    marginRight: 2,
+    width: '100%',
+    borderWidth: 1,
+    borderColor: '#D8D8D8',
+  },
+  socialButtonHolder: {
+    flexDirection: 'row',
+    marginTop: 10,
+    height: 68,
+    width: 140,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  socialMediaImage: {
+    height: 56,
+    width: 56,
+    marginTop: 10,
+    marginLeft: 5,
+    marginRight: 5,
+  },
+  dontAccountHolder: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    flexDirection: 'row',
+    marginTop: 30,
+    marginBottom: 10,
+  },
+  dontAccountText: {
+    height: 19,
+    color: '#454545',
+    //font- family: Nunito; 
+    fontSize: 16,
+    fontWeight: 'bold',
+    lineHeight: 19,
+  },
+  signUpText: {
+    height: 19,
+    width: '100%',
+    color: '#FF785A',
+    //font- family: Nunito; 
+    fontSize: 16,
+    fontWeight: 'bold',
+    lineHeight: 19,
+    marginLeft: 5,
+  },
+  guestText: {
+    height: 19,
+    width: '100%',
+    color: '#696DC3',
+    //font- family: Nunito; 
+    fontSize: 16,
+    fontWeight: 'bold',
+    lineHeight: 19,
+    marginLeft: 5,
+  },
 });
 
 export default styles;
