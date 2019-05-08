@@ -110,6 +110,8 @@ const styles = StyleSheet.create({
     width: 90,
     height: 90,
     position: 'absolute',
+    alignItems: 'center',
+    justifyContent: 'center',
     top: 30,
     right: 5,
   },
@@ -180,7 +182,10 @@ const styles = StyleSheet.create({
   },
   dontAccountText: {
     height: 19,
+    width: '65%',
     color: '#454545',
+    textAlign: 'right',
+    marginRight: 5,
     //font- family: Nunito; 
     fontSize: 16,
     fontWeight: 'bold',
