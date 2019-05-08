@@ -1,1 +1,22 @@
-//add spalsh screen here
+import React, { Component } from 'react';
+import { Platform, StyleSheet, Image, Text, View, TextInput, TouchableOpacity } from 'react-native';
+import { Container } from '../../atoms/Container';
+import { strings } from '../../../locales/Localization';
+import styles from '../Splash/styles';
+
+
+export default class Splash extends Component {
+
+    static navigationOptions = {
+        header: null,
+    };
+
+    render() {
+        return (
+            <Container >
+                <View style={styles.mainContainer}>
+                </View>
+            </Container >
+        );
+    }
+}

@@ -3,9 +3,7 @@ import { Platform, StyleSheet, Image, Text, View, TextInput, TouchableOpacity } 
 import { Button } from "../../atoms/Button";
 import { Label } from "../../atoms/Label";
 import { Container } from '../../atoms/Container';
-import { Input } from '../../atoms/Input'
 import { strings } from '../../../locales/Localization';
-import loginStyles from './styles';
 import styles from '../Login1/styles';
 
 
