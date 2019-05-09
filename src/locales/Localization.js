@@ -4,6 +4,18 @@ import LocalizedStrings from 'react-native-localization';
 // let LocalizedStrings  = require ('react-native-localization');
  
  export let strings = new LocalizedStrings({
+  "English": {
+    phone_number: "Phone Number",
+    register: "REGISTER/LOGIN",
+    plumber: "Plumber",
+
+
+},
+"Arabic": {
+    phone_number: "رقم الهاتف",
+    register: "التسجيل/الدخول",
+    plumber: "سباك",
+},
  "en-US":{
    how:"How do you want your egg today?",
    boiledEgg:"Boiled egg",
